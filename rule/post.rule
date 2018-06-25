@@ -1,0 +1,34 @@
+(?i:(sleep\((\s*?)(\d*?)(\s*?)\)|benchmark\((.*?)\,(.*?)\)))
+(?i:(?:(select|;)\s+(?:benchmark|if|sleep)\s*?\(\s*?\(?\s*?\w+))
+(?i:(?:^(-0000023456|4294967295|4294967296|2147483648|2147483647|0000012345|-2147483648|-2147483649|0000023456|3.0.00738585072007e-308|1e309)$)
+(?i:(?:[\s()]case\s*?\()|(?:\)\s*?like\s*?\()|(?:having\s*?[^\s]+\s*?[^\w\s])|(?:if\s?\([\d\w]\s*?[=<>~]))
+(?i:(?:alter\s*?\w+.*?(?:character|char)\s+set\s+\w+)|([\"'`];*?\s*?waitfor\s+(?:time|delay)\s+[\"'`])|(?:[\"'`];.*?:\s*?goto))
+(?i:(?:merge.*?using\s*?\()|(execute\s*?immediate\s*?[\"'`])|(?:match\s*?[\w(),+-]+\s*?against\s*?\())
+(?i:(?:(union(.*?)select(.*?)from)))
+(?i:(?:select\s*?pg_sleep)|(?:waitfor\s*?delay\s?[\"'`]+\s?\d)|(?:;\s*?shutdown\s*?(?:;|--|#|\/\*|{)))
+(?i:(?:\[\$(?:ne|eq|lte?|gte?|n?in|mod|all|size|exists|type|slice|x?or|div|like|between|and)\]))
+(?i:(?:\[\$(?:ne|eq|lte?|gte?|n?in|mod|all|size|exists|type|slice|x?or|div|like|between|and)\]))
+(?i:(?:create\s+function\s+.+\s+returns)|(?:;\s*?(?:select|create|rename|truncate|load|alter|delete|update|insert|desc)\s*?[\[(]?\w{2,}))
+(?i:(?:[\d\W]\s+as\s*?[\"'`\w]+\s*?from)|(?:^[\W\d]+\s*?(?:union|select|create|rename|truncate|load|alter|delete|update|insert|desc)\b)|(?:(?:select|create|rename|truncate|load|alter|delete|update|insert|desc)\s+(?:(?:group_)concat|char|load_file)\s?\(?)|(?:end\s*?\);)|([\"'`]\s+regexp\W)|(?:[\s(]load_file\s*?\())
+\b(?i:having)\b\s+(\d{1,10}|'[^=]{1,10}')\s*?[=<>]|(?i:\bexecute(\s{1,5}[\w\.$]{1,5}\s{0,3})?\()|\bhaving\b ?(?:\d{1,10}|[\'\"][^=]{1,10}[\'\"]) ?[=<>]+|(?i:\bcreate\s+?table.{0,20}?\()|(?i:\blike\W*?char\W*?\()|(?i:(?:(select(.*?)case|from(.*?)limit|order\sby)))|exists\s(\sselect|select\Sif(null)?\s\(|select\Stop|select\Sconcat|system\s\(|\b(?i:having)\b\s+(\d{1,10})|'[^=]{1,10}')
+(?i:\bor\b ?(?:\d{1,10}|[\'\"][^=]{1,10}[\'\"]) ?[=<>]+|(?i:'\s+x?or\s+.{1,20}[+\-!<>=])|\b(?i:x?or)\b\s+(\d{1,10}|'[^=]{1,10}')|\b(?i:x?or)\b\s+(\d{1,10}|'[^=]{1,10}')\s*?[=<>])
+(?i)\b(?i:and)\b\s+(\d{1,10}|'[^=]{1,10}')\s*?[=]|\b(?i:and)\b\s+(\d{1,10}|'[^=]{1,10}')\s*?[<>]|\band\b ?(?:\d{1,10}|[\'\"][^=]{1,10}[\'\"]) ?[=<>]+|\b(?i:and)\b\s+(\d{1,10}|'[^=]{1,10}')
+(?i:(?:\A|[^\d])0x[a-f\d]{3,}[a-f\d]*)+
+(?i)\W+\d*?\s*?having\s*?[^\s\-]
+select.+(from|limit)
+(?:(union(.*?)select))
+having|rongjitest
+sleep\((\s*)(\d*)(\s*)\)
+benchmark\((.*)\,(.*)\)
+base64_decode\(
+(?:from\W+information_schema\W)
+(?:(?:current_)user|database|schema|connection_id)\s*\(
+(?:etc\/\W*passwd)
+into(\s+)+(?:dump|out)file\s*
+group\s+by.+\(
+xwork.MethodAccessor
+(?:define|file_get_contents|include|require|require_once|shell_exec|phpinfo|system|passthru|preg_\w+|execute|echo|print|print_r|var_dump|(fp)open|showmodaldialog)\(
+xwork\.MethodAccessor
+(gopher|doc|php|glob|file|phar|zlib|ftp|ldap|dict|ogg|data)\:\/
+java\.lang
+\$_(GET|post|cookie|files|session|env|phplib|GLOBALS|SERVER)\[

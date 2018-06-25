@@ -1,0 +1,1 @@
+{"Tag":"SQL注入","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Server_Name":"localhost","Rule_Tag":"'","Request_URL":"localhost\/index.php?id=1'","Local_Time":"2018-04-21 17:18:09","Attack_Method":"GET"}

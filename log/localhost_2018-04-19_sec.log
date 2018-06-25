@@ -1,0 +1,18 @@
+[ 127.0.0.1 ] [ 2018-04-19 11:29:09 ] [ GET ] [ localhost/index.php ] [ id=union
+select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-19 11:37:24 ] [ GET ] [ localhost/index.php ] [ id=unio
+n select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-19 11:38:22 ] [ GET ] [ localhost/index.php ] [ id=unio
+n select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-19 11:39:50 ] [ GET ] [ localhost/index.php ] [ id=unio
+n select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-19 11:42:04 ] [ GET ] [ localhost/index.php ] [ id=union
+select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ union ]
+[ 127.0.0.1 ] [ 2018-04-19 11:42:33 ] [ GET ] [ localhost/index.php ] [ id=union
+select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+{"user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","rule_tag":"'","req_url":"\/index.php","client_ip":"127.0.0.1","local_time":"2018-04-19 14:39:05","attack_method":"GET","req_data":"id=1'","server_name":"localhost"}
+{"Server_Name":"localhost","Rule_Tag":"'","Attack_Method":"GET","Local_Time":"2018-04-19 14:43:30","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Request_RUL":"localhost\/index.php"}
+{"Server_Name":"localhost","Rule_Tag":"'","Attack_Method":"GET","Local_Time":"2018-04-19 14:46:27","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Request_RUL":"localhost\/index.php"}
+{"Server_Name":"localhost","Rule_Tag":"'","Attack_Method":"GET","Request_URL":"localhost\/index.php","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Local_Time":"2018-04-19 14:54:32"}
+{"Server_Name":"localhost","Rule_Tag":"'","Attack_Method":"GET","Request_URL":"localhost\/index.php","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Local_Time":"2018-04-19 15:01:16"}
+{"Tag":"SQL注入","Client_IP":"127.0.0.1","Request_Data":"id=1'","User_Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko\/20100101 Firefox\/59.0","Server_Name":"localhost","Rule_Tag":"'","Request_URL":"localhost\/index.php","Local_Time":"2018-04-19 16:17:26","Attack_Method":"GET"}

@@ -1,0 +1,15 @@
+\.(hg|log|dump|cfg|bz2|bzr|json|idea|ini|sh|ssh|svn|htaccess|bash_history|ds_store|git|rediscli_history|bashrc|bash_profile|bash_logout|vimrc|history|htpasswd|mysql_history|conf|config)
+(changelog|data|install|database)\.(txt|yml)
+/etc/(passwd|profile)
+/proc/meminfo
+/file:///etc/passwd
+/CVS
+/..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+/..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fpasswd
+/WEB-INF/.*\.(xml|properties)
+\.(bak|inc|old|mdb|sql|backup|java|class|swp|sqlite)$
+(vhost|bbs|host|wwwroot|www|site|root|hytop|flashfxp|wwwsite)?.*\.(rar|zip|7z|tar.gz|tar.bz2|incf|gz|tar|z|iso|cab|tgz)
+/(phpmyadmin|jmx-console|jmxinvokerservlet|pmd|web-console|_phpmyadmin|pma|memadmin)/?
+java\.lang
+/(attachments|upimg|images|css|uploadfiles|html|uploads|templets|static|template|data|inc|forumdata|upload|includes|cache|avatar)/.*(php|jsp)
+

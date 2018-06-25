@@ -1,0 +1,4 @@
+[ 127.0.0.1 ] [ 2018-04-17 16:55:48 ] [ POST ] [ localhost/index.html ] [ HTTrack ]  [ HTTrack ] [ (HTTrack|harvest|audit|dirbuster|pangolin|nmap|sqln|-scan|hydra|Parser|libwww|BBBike|sqlmap|w3af|owasp|Nikto|fimap|havij|PycURL|zmeu|BabyKrokodil|netsparker|httperf|bench| SF/) ]
+[ 127.0.0.1 ] [ 2018-04-17 17:19:51 ] [ GET ] [ localhost/index.php ] [ get=12    select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-17 17:24:42 ] [ GET ] [ localhost/index.php ] [ get=12    select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
+[ 127.0.0.1 ] [ 2018-04-17 17:57:46 ] [ GET ] [ localhost/index.php ] [ get=12    select ]  [ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 ] [ select ]
